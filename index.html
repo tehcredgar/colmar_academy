@@ -8,11 +8,11 @@
   </head>
   <body>
     <header>
-      <div class="logo">
+      <div class="logo desktop">
         <img src="resources/images/ic-logo.svg" alt="logo">
         <span><strong>Colmar</strong>Academy</span>
       </div>
-      <nav>
+      <nav class="desktop">
         <ul>
           <li>Online</li>
           <li>On Capus</li>
@@ -42,7 +42,7 @@
     </div>
     <!-- Information Section -->
     <div class="info container">
-      <div class="info left container">
+      <div class="info left container desktop">
         <img src="resources/images/information-main.jpg" alt="information image">
         <h1>It doesn't hurt to keep practicing</h1>
         <p id="quote">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -51,7 +51,8 @@
       <div class="info right container">
         <div class="story container" id="orientation">
           <div class="story-left container">
-            <img src="resources/images/information-orientation.jpg" alt="">
+            <img src="resources/images/information-orientation.jpg" class="desktop" alt="">
+            <img src="resources/images/information-orientation-mobile.jpg" class="mobile" alt="">
           </div>
           <div class="story-right container">
             <h1>Orientation date</h1>
@@ -61,7 +62,8 @@
         </div>
         <div class="story container" id="our_campus">
           <div class="story-left container">
-            <img src="resources/images/information-campus.jpg" alt="">
+            <img src="resources/images/information-campus.jpg" class="desktop" alt="">
+            <img src="resources/images/information-campus-mobile.jpg" class="mobile" alt="">
           </div>
           <div class="story-right container">
             <h1>Our Campus</h1>
@@ -73,7 +75,8 @@
 
         <div class="story container" id="guest_lecture">
           <div class="story-left container">
-            <img src="resources/images/information-guest-lecture.jpg" alt="">
+            <img src="resources/images/information-guest-lecture.jpg" class="desktop" alt="">
+            <img src="resources/images/information-guest-lecture-mobile.jpg" class="mobile" alt="">
           </div>
           <div class="story-right container">
             <h1>Our guest lecture</h1>
@@ -87,7 +90,7 @@
     <div class="courses">
       <h1>Start learning</h1>
       <div class="catalog container">
-        <div class="course container" id="software_engineering">
+        <div class="course container desktop" id="software_engineering">
           <div class="course banner">
             <img src="resources/images/course-software.jpg" alt="">
           </div>
@@ -97,56 +100,116 @@
             <h4>Web Development, Mobile Development, iOT, APIs</h4>
           </div>
         </div>
-        <div class="course container" id="computer_art">
+        <div class="course container desktop" id="computer_art">
           <div class="course banner">
             <img src="resources/images/course-computer-art.jpg" alt="">
           </div>
           <div class="course description">
-
+            <h2>Computer art</h2>
+            <h3>COURSES</h3>
+            <h4>Imaging & Design, WEb Design, Motion Graphics & Visual Effects, Computer Animation</h4>
           </div>
         </div>
-        <div class="course container" id="design">
+        <div class="course container desktop" id="design">
           <div class="course banner">
             <img src="resources/images/course-design.jpg" alt="">
           </div>
           <div class="course description">
-
+            <h2>Design</h2>
+            <h3>COURSES</h3>
+            <h4>User Experience Design, User Research, Visual Design</h4>
           </div>
         </div>
-        <div class="course container" id="data">
+        <div class="course container desktop" id="data">
           <div class="course banner">
             <img src="resources/images/course-data.jpg" alt="">
           </div>
           <div class="course description">
-
+            <h2>Data</h2>
+            <h3>COURSES</h3>
+            <h4>Data Science, Big Data, SQL, Data Visualization</h4>
           </div>
         </div>
-        <div class="course container" id="business">
+        <div class="course container desktop" id="business">
           <div class="course banner">
             <img src="resources/images/course-business.jpg" alt="">
           </div>
           <div class="course description">
-
+            <h2>Business</h2>
+            <h3>COURSES</h3>
+            <h4>Product Development, Business Development, Startup</h4>
           </div>
         </div>
-        <div class="course container" id="marketing">
+        <div class="course container desktop" id="marketing">
           <div class="course banner">
             <img src="resources/images/course-marketing.jpg" alt="">
           </div>
           <div class="course description">
-
+            <h2>Marketing</h2>
+            <h3>COURSES</h3>
+            <h4>Analytics, Content Marketing, Mobile Marketing</h4>
           </div>
+        </div>
+        <div class="course container mobile">
+          <span>Software engineering</span>
+        </div>
+        <div class="course container mobile">
+          <span>Computer art</span>
+        </div>
+        <div class="course container mobile">
+          <span>Design</span>
+        </div>
+        <div class="course container mobile">
+          <span>Data</span>
+        </div>
+        <div class="course container mobile">
+          <span>Business</span>
+        </div>
+        <div class="course container mobile">
+          <span>Marketing</span>
         </div>
       </div>
     </div>
     <!-- Thesis Section -->
-    <div class="thesis container">
-      <div class="thesis left">
-
-      </div>
-      <div class="thesis right">
-
+    <div class="thesis">
+      <h1>Thesis exhibit</h1>
+      <div class="thesis container">
+        <div class="thesis left container">
+          <video src="resources/videos/thesis.mp4" autoplay loop muted poster="posterimage.jpg" controls>
+          </video>
+          <h2 class="desktop">Reimagine urban</h2>
+          <p class="desktop">"Curabitur vitae libero inipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+        </div>
+        <div class="thesis right container desktop">
+          <div class="story container" id="fisma">
+            <div class="story-left container">
+              <img src="resources/images/thesis-fisma.jpg" alt="">
+            </div>
+            <div class="story-right container">
+              <h1>Fisma: Design and Prototype</h1>
+              <h2>Designer showcase of new prototype product</h2>
+            </div>
+        </div>
+          <div class="story container" id="now_and_then">
+            <div class="story-left container">
+              <img src="resources/images/thesis-now-and-then.jpg" alt="">
+            </div>
+            <div class="story-right container">
+              <h1>Now and then</h1>
+              <h2>Research study about New York</h2>
+            </div>
+          </div>
       </div>
     </div>
+    <!-- Footer -->
+    <footer>
+      <div class="footer container">
+        <span>&copy Copyright 2016 Colmar Academy. All rights reserved</span>
+        <div class="footer right desktop">
+          <span>Terms</span>
+          <span>Privacy</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
